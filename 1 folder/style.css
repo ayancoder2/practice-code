@@ -1,0 +1,86 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+#color-animate{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border: 2px solid black;
+    animation-name:color-animate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+}
+@keyframes color-animate{
+    from {background-color: aqua;}
+    to {background-color: red;}
+}
+#main1{
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 174, 0);
+}
+#main1:hover{
+    transform: skew(30deg); 
+}
+#main2{
+    height:100px;
+    width:100px;
+    background-color: rgb(255, 0, 76);
+    position: absolute;
+    top: 100px;
+    left:100px;
+    animation-name: main2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+@keyframes main2{
+    from {background-color: rgb(255, 0, 76);
+    left:0px;}
+    to {background-color: rgb(255, 174, 0);
+    left:200px;}
+}
+#main3{
+    height:100px;
+    width:100px;
+    border-top: 20px solid black;
+    border-radius: 50%;
+    border: 20px solid blue;    
+    animation-name: main3 3s ease-in 0s infinite normal;
+    
+
+}
+@keyframes main3 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#main4::before{
+    content: '<';    
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: blue;
+    top: 50%;
+}
+#main4::after{
+    content: '';
+}
+#main4{
+    width: fit-content;
+    position: relative;
+    background-color: green;
+} 

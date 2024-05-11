@@ -1,0 +1,131 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body{
+    background-color: rgb(82, 8, 243);
+}
+#main2{
+  color:aqua;
+}
+#main{
+  color:aqua;
+  background-color: rgb(146, 33, 33);
+}
+button{
+  background-color: rgb(146, 33, 33);
+  color:black;
+}
+#box{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+#main3{
+  color: rgb(0,234,255);
+  background-color: blue;
+  font-size: 200px;
+  font-family:momument;
+}
+#box{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.myclass{
+  color:brown;
+}
+#one{
+  color: blue;
+}
+#two{
+  color: chartreuse;
+}
+#three{
+  color:indigo;
+}
+
+button{
+  color:green;
+  background-color: rgb(146, 33, 33);
+}
+p{
+  text-align: start;
+
+}
+h1{
+  text-align: start;
+}
+p{
+  text-align: start;
+}
+h1{
+  text-align: start;
+  text-decoration:blue wavy underline;
+}
+h2{
+  text-align: start;
+  text-decoration:blue underline;
+}
+h3{
+  text-align: start;
+  text-decoration:blue dotted underline;
+}
+a{
+  text-decoration: none;
+}
+#main{
+  text-align: start;
+  text-decoration: blue double underline;
+}
+#two{
+  text-align: start;
+  text-decoration: blue dashed underline;
+}
+#three{
+  text-align: start;
+  text-decoration: blue solid underline;
+}
+#one{
+  text-align: start;
+  text-decoration: blue  underline;
+}
+#hi{
+  text-align: start;
+  font-weight: normal;
+}
+#hello{
+  text-align: start;
+  font-weight: bold;
+}
+#ayan{
+  text-align: start;
+  text-align: start;
+  font-weight: lighter;
+}
+#sit{
+  font-weight: 100;
+}
+#chacha{
+  font-weight: 250;
+}
+#chachi{
+  font-weight: 400;
+}
+#kaise{
+  font-weight: 900;
+}
+#one{
+  font-family: arial;
+}

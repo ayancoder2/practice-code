@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+.main{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.main1{
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+    padding: 13px;
+}
+.main2{
+    height: 30px;
+    width:200px;
+    padding: 20px;
+    color: black;
+}
+.main3{
+    height: 30px;
+    width: 80px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight:400;
+    display: center;
+}
+.main4{
+    height: 30px;
+    width:80px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight:400;
+    display: center;
+}

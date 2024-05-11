@@ -1,0 +1,36 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main1{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none; 
+    color: black;
+    background-color: aqua;
+}
+li {
+    list-style-type: none;
+    display: inline;
+}
+#main2{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main3{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
